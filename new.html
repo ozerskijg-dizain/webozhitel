@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Вебожитель</title></head>
+<body>
+  <div id="root"></div>
+  <script type="module">
+    import React from 'https://esm.sh/react';
+    import { createRoot } from 'https://esm.sh/react-dom/client';
+    const root = createRoot(document.getElementById('root'));
+    root.render(React.createElement('div', null, 'Сайт работает!'));
+  </script>
+</body>
+</html>
